@@ -3,6 +3,13 @@
   box-sizing: border-box;
 }
 
+h1 {
+  color: white;
+  font-size: 600%;
+  text-align: center;
+  margin-top: 20%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -10,6 +17,15 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #222;
   background: #5c5b58;
+}
+
+.body2 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Cambria;
+  color: #222;
+  background: #bb9c40;
 }
 /* Link Styles */
 
@@ -71,6 +87,14 @@ header {
   padding-top: 0px;
 }
 
+.header3 {
+  text-align: center;
+  background: url('images/wedding.jpeg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 0px;
+}
+
 header {
   line-height: 1.5;
 }
@@ -79,14 +103,14 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid #25e72e;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.5) rotate(360deg);
 }
 .tag {
-  background-color: #efefef;
+  background-color: white;
   color: black;
   padding: 10px;
   border-radius: 5px;
@@ -109,12 +133,25 @@ header .profile-image:hover {
   flex: 200px;
 }
 
-.card2:hover {
-  border-color: green;
+.card2 {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background: #fff;
+  border: solid gray 4px;
+  border-radius: 20px;
+  transition: all 1s;
+  flex: 200px;
 }
 
 .card:hover {
-  border-color: green;
+  border-color: #25e72e;
+}
+
+.card2:hover {
+  border-color: black;
+  transform: scale(1.02);
 }
 
 ul.skills {
@@ -125,14 +162,15 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
-  color: white;
+  background: #25e72e;
+  color: black;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: black;
+  color: white;
 }
 
 footer {
